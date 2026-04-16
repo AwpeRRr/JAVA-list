@@ -16,6 +16,6 @@ class Base{
 
     }
     public int getI(){
-        return this;
+        return this.i;
     }
 }
