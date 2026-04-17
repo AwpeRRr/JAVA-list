@@ -5,6 +5,12 @@ public class OOverriding extends Base{
         no.increase();
         System.out.println(no.i);
         System.out.println(no.getI());
+
+        Base no1 = new OOverriding();
+        no1.increase();
+        System.out.println(no1.getI());
+
+
     }
     
 }
