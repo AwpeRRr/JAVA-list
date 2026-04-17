@@ -15,6 +15,7 @@ class RoundGlyph extends Glyph{
         radius = r;
         System.out.println("RG.RoundGlyph() , radius = " + radius);
     }
+    /*方法重写是在父类对象构造之前吗？*/
     void draw(){
         System.out.println("RG.draw().radius = " + radius);
     }
