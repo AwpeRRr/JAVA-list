@@ -1,6 +1,6 @@
 public class Inheritance {
     public static void main (String[] args){
-        Rec r1 = new Rec();
+        Rectangle r1 = new Rectangle();
         r1.newDraw();
     }
 }
