@@ -11,6 +11,5 @@ public class Assign {
         y = 100;
         c = 'A';
         str = "shut the fuck up";
-        
     }
 }
