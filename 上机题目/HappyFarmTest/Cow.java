@@ -1,3 +1,5 @@
+package HappyFarmTest;
+
 public class Cow extends FarmObject {
     public Cow(String name) {
         super(name, "动物-牛");
