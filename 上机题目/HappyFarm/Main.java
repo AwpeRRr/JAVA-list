@@ -1,8 +1,24 @@
 package HappyFarm;
 
 import java.util.Scanner;
+import java.util.ArrayList;
+
 
 public class Main {
+	ArrayList<FarmObj> oBj = new ArrayList<>();
+	
+	
+	void care(FarmObj animal) {
+		if (! animal.flag) {
+			animal.flag = true;
+			System.out.println("It looks better than before, bro!");
+		}
+	}
+	
+	static void type(FarmObj animal) {
+		
+	}
+	
 	public static void main(String[] args) {
 		Scanner s1 = new Scanner(System.in);
 		
@@ -17,7 +33,15 @@ public class Main {
 		System.out.println("8. 输出所有农场对象");
 		System.out.println("0. 退出系统");
 		System.out.println("请选择操作：");
-
+		
+		
+		
+		int a = s1.nextInt();
+		switch(a) {
+			case 1:
+				System.out.println("");
+		}
+		
 
 	}
 }
@@ -26,15 +50,16 @@ class FarmObj{
 	boolean flag;
 	String attitude;
 	String sort;
-	int num;
+	int sign;
 	void attitude() {
 		if (flag) {
-			System.out.println("Alive");
+			System.out.println("Its fine now.");
 		}
 		else {
-			System.out.println("Dead");
+			System.out.println("It gotta die, pls do sth.");
 		}
 	}
+	
 }
 
 class Wheat extends FarmObj{
