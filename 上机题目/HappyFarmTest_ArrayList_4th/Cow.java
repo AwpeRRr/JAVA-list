@@ -1,8 +1,6 @@
-
-
 public class Cow extends FarmObject {
-    public Cow(String name) {
-        super(name, "动物-牛");
+    public Cow(int id, String name) {
+        super(id, name, "动物-牛");
     }
 
     @Override

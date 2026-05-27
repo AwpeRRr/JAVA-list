@@ -1,8 +1,6 @@
-
-
 public class Wheat extends FarmObject {
-    public Wheat(String name) {
-        super(name, "农作物-小麦");
+    public Wheat(int id, String name) {
+        super(id, name, "农作物-小麦");
     }
 
     @Override
