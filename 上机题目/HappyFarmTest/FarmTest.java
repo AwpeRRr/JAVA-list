@@ -1,4 +1,4 @@
-package HappyFarmTest;
+
 
 import java.util.Scanner;
 

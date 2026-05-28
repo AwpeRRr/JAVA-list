@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>HappyFarmTest</name>
+	<name>HappyFarmTest_ArrayList_4th</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,11 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-<<<<<<< HEAD
-			<id>1779900165253</id>
-=======
-			<id>1779895825322</id>
->>>>>>> 570ea5f3b0eb821883389291032ad14df81dde85
+			<id>1779895825327</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
