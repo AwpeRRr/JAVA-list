@@ -1,3 +1,5 @@
+
+package HappyFarmTest_ArrayList;
 import java.util.Scanner;
 
 public class FarmTest {

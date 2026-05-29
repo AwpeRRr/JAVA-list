@@ -1,4 +1,4 @@
-
+package HappyFarmTest;
 
 import java.util.Scanner;
 
@@ -45,7 +45,7 @@ public class FarmTest {
                     break;
                 case "0":
                     running = false;
-                    System.out.println("感谢使用简单开心农场管理系统，再见！");
+                    System.out.println("感谢使用开心农场管理系统，再见！");
                     break;
                 default:
                     System.out.println("输入有误，请重新选择！");
@@ -56,7 +56,7 @@ public class FarmTest {
 
     // 显示功能菜单
     private static void showMenu() {
-        System.out.println("\n========== 简单开心农场管理系统 ==========");
+        System.out.println("\n========== 开心农场管理系统 ==========");
         System.out.println("1. 创建农场对象");
         System.out.println("2. 根据名称查找农场对象");
         System.out.println("3. 根据类型输出农场对象");

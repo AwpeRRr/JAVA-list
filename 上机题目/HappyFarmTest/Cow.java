@@ -1,4 +1,4 @@
-
+package HappyFarmTest;
 
 public class Cow extends FarmObject {
     public Cow(String name) {

@@ -1,3 +1,5 @@
+package HappyFarmTest_ArrayList_4th;
+
 public class Wheat extends FarmObject {
     public Wheat(int id, String name) {
         super(id, name, "农作物-小麦");

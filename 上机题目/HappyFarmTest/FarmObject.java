@@ -1,4 +1,4 @@
-
+package HappyFarmTest;
 
 public abstract class FarmObject {
     // 静态变量，用于实现自增的种植编号
