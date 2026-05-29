@@ -242,7 +242,7 @@ enum Category {
 但如果大量业务逻辑都依赖 `instanceof`，就会削弱多态的作用。比如每次新增一个 `Pig` 类，都要修改 `checkInstanceType()` 方法，代码就不够符合开闭原则。
 
 更面向对象的做法可以是在父类中定义方法，比如：
-
+9
 ```java
 public abstract String getDisplayClassName();
 ```
