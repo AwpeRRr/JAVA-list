@@ -7,6 +7,6 @@ public class Cow extends FarmObject {
 
     @Override
     public void care() {
-        System.out.println("正在给牛 [" + getName() + "] 喂牧草和挤牛奶...");
+        System.out.println("正在给牛 [" + getName() + "] 喂草并抚摸它的皮毛...");
     }
 }
