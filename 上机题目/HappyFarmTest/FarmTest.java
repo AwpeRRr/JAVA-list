@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class FarmTest {
     // 使用常量设置数组最大容量
-    private static final int MAX_CAPACITY = 10;
+    private static final int MAX = 10;
     // 使用数组进行存储
-    private static FarmObject[] farm = new FarmObject[MAX_CAPACITY];
+    private static FarmObject[] farm = new FarmObject[MAX];
     private static int count = 0; // 当前农场中的对象数量
 
     public static void main(String[] args) {
@@ -70,7 +70,7 @@ public class FarmTest {
 
     // 1. 创建农场对象
     private static void createFarmObject(Scanner scanner) {
-        if (count >= MAX_CAPACITY) {
+        if (count >= MAX) {
             System.out.println("农场已满，无法继续添加对象！");
             return;
         }
