@@ -1,3 +1,4 @@
+package File;
 import java.io.File;
 
 public class RenameFile {
@@ -16,8 +17,8 @@ public class RenameFile {
     }
     
     public static void main(String[] args) {
-    	File f1 = new File(args[0]);
-    	File f2 = new File(args[1]);
+    	File f1 = new File("E:\\Code\\JAVA-list\\f1.txt");
+    	File f2 = new File("E:\\Code\\JAVA-list\\f2.txt");
     	System.out.println("The original file's information: ");
     	fileData(f1);
     	f1.renameTo(f2);
