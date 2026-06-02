@@ -1,0 +1,10 @@
+ROWS	4
+OBJECT	0	Wheat	1	超级小麦
+OBJECT	0	Chicken	2	一号鸡
+OBJECT	0	Cow	3	肌肉牛
+OBJECT	1	Corn	11	一号玉米
+OBJECT	1	Corn	12	二号玉米
+OBJECT	1	Corn	14	四号玉米
+OBJECT	2	Chicken	21	二号鸡
+OBJECT	2	Cow	22	瘦子牛
+OBJECT	3	Wheat	31	普通小麦
