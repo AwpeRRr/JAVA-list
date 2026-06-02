@@ -5,7 +5,7 @@ import java.io.ObjectInputStream;
 import java.io.FileInputStream;
 
 public class UnSerializeDate {
-	Date d = null;
+	Date d = new Date();
 	UnSerializeDate(){
 		try {
 			ObjectInputStream s = new ObjectInputStream(new FileInputStream("Class project1/File/date.ser"));
