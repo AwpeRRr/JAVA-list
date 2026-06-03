@@ -7,8 +7,9 @@ public class CountDown2 extends Thread{
 	public void run() {
 		while (counter >= 0) {
 			try {
+				System.out.println("hi");
 				Thread.sleep(1000);
-				
+				counter--;
 			}
 			catch(Exception e) {
 				e.printStackTrace();
