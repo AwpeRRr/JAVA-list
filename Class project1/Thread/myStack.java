@@ -17,10 +17,25 @@ public class myStack {
 	}
 	
 	public static void main(String[] args) {
+		myStack stack = new myStack();
 		Scanner s1 = new Scanner(System.in);
 		char s;
-		if(s1.nextLine() = "push") {
-			
+		boolean flag = true;
+		
+		while(flag) {
+			System.out.println("push or pop?");
+			if(s1.nextLine().equals("push")) {
+				System.out.println("input: ");
+				s = s1.next().charAt(0);
+				stack.push(s);
+			}
+			else if (s1.nextLine().equals("pop")) {
+				System.out.println(stack.pop());
+			}
+			else {
+				flag = false;
+			}
 		}
+		s1.close();
 	}
 }
