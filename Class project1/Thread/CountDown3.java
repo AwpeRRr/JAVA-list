@@ -8,7 +8,7 @@ public class CountDown3 {
 		public void run() {
 			try {
 				Thread.sleep(1000);
-				System.out.println("#" + threadid);
+				System.out.println("#SubThread " + threadid);
 			}
 			catch(Exception e) {
 				e.printStackTrace();
