@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class DataIO {
 	public static void main(String[] args) throws IOException {
-		DataOutputStream out = new DataOutputStream(new BufferedOutputStream (new FileOutputStream("Class project1/File/DataIO.txt")));
+		DataOutputStream out = new DataOutputStream(new BufferedOutputStream (new FileOutputStream("jakie/Code/Java/Class project1/File/DataIO.txt")));
 		
 		out.writeBoolean(false);
 		out.writeChar('c');
@@ -25,7 +25,7 @@ public class DataIO {
 		out.close();
 
 		DataInputStream in = new DataInputStream(
-			new BufferedInputStream(new FileInputStream("Class project1/File/DataIO.txt"))
+			new BufferedInputStream(new FileInputStream("jakie/Code/Java/Class project1/File/DataIO.txt"))
 		);
 
 		System.out.println(in.readBoolean());
