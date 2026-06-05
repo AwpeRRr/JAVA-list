@@ -8,7 +8,7 @@ public class UnSerializeDate {
 	Date d = new Date();
 	UnSerializeDate(){
 		try {
-			ObjectInputStream s = new ObjectInputStream(new FileInputStream("Class project1/File/date.ser"));
+			ObjectInputStream s = new ObjectInputStream(new FileInputStream("JAVA-List/Class project1/File/date.ser"));
 			Object o = s.readObject();
 			if(d instanceof Date) d = (Date) o;
 			s.close();

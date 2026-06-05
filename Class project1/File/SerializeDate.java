@@ -10,7 +10,7 @@ public class SerializeDate {
 	SerializeDate(){
 		Date d = new Date();
 		try {
-			ObjectOutputStream s = new ObjectOutputStream(new FileOutputStream("Class project1/File/date.ser"));
+			ObjectOutputStream s = new ObjectOutputStream(new FileOutputStream("JAVA-List/Class project1/File/date.ser"));
 			s.writeObject(d);
 			s.close();
 		}
