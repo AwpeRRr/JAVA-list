@@ -75,8 +75,8 @@ class WordProcessor implements Runnable{
 				
 				System.out.println("Accept: " + originalWord + "-> reverse processing: " + reversedWord );
 				
-				System.out.println("over");
 			}
+			System.out.println("over");
 		}
 		catch(IOException e) {
 			e.printStackTrace();
