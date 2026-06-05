@@ -7,7 +7,7 @@ public class RandomAccessTest {
 	public static void main(String[] args) throws IOException{
 		long filePoint = 0;
 		String s;
-		RandomAccessFile file = new RandomAccessFile("Class project1/File/RandomAccessTest.java", "r");
+		RandomAccessFile file = new RandomAccessFile("JAVA-List/Class project1/File/RandomAccessTest.java", "r");
 		
 		long fileLength = file.length();
 		
