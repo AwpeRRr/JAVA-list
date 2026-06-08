@@ -1,3 +1,5 @@
+package HappyFarm_Set;
+
 import java.util.Scanner;
 
 public class FarmTest {

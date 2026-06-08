@@ -1,3 +1,5 @@
+package HappyFarm_Set;
+
 public abstract class FarmObject {
     private int id;
     private String name;

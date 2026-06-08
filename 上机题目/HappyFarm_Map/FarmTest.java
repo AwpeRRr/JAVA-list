@@ -1,3 +1,5 @@
+package HappyFarm_Map;
+
 import java.util.Scanner;
 
 public class FarmTest {

@@ -1,3 +1,5 @@
+package HappyFarm_Map;
+
 public abstract class FarmObject {
     private int id;
     private String name;

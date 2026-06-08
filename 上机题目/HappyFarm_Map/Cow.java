@@ -1,3 +1,5 @@
+package HappyFarm_Map;
+
 public class Cow extends FarmObject {
     public Cow(int id, String name) {
         super(id, name, "动物-牛");

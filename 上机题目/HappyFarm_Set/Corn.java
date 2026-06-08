@@ -1,3 +1,5 @@
+package HappyFarm_Set;
+
 public class Corn extends FarmObject {
     public Corn(int id, String name) {
         super(id, name, "农作物-玉米");
