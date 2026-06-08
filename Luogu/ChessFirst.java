@@ -1,14 +1,19 @@
 import java.util.Scanner;
 
-public class Main{
-    Scanner s1 = new Scanner(System.in);
+public class ChessFirst{
+    
+    
+    	
+    
+    public static void main(String[] args){
+    	Scanner s1 = new Scanner(System.in);
 
         int a = s1.nextInt();
         int b = s1.nextInt();
         int c = s1.nextInt();
         int d = s1.nextInt();
-    
-    int result(int x, int y){
+        
+        int result(int x, int y){
             if(x == c+1 && y == d+2){
                 return 0;
             }
@@ -45,8 +50,7 @@ public class Main{
             
             return result(x-1,y) + result(x,y-1);
         };
-    
-    public static void main(String[] args){
+        
         System.out.println(result(a,b));
 
         s1.close();
