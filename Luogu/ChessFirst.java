@@ -1,19 +1,9 @@
 import java.util.Scanner;
 
 public class ChessFirst{
-    
-    
-    	
-    
-    public static void main(String[] args){
-    	Scanner s1 = new Scanner(System.in);
+    int c, d; // Assuming c and d are instance variables
 
-        int a = s1.nextInt();
-        int b = s1.nextInt();
-        int c = s1.nextInt();
-        int d = s1.nextInt();
-        
-        int result(int x, int y){
+    long result(int x, int y){
             if(x == c+1 && y == d+2){
                 return 0;
             }
@@ -50,8 +40,24 @@ public class ChessFirst{
             
             return result(x-1,y) + result(x,y-1);
         };
+    
+    	
+    
+    public static void main(String[] args){
+    	Scanner s1 = new Scanner(System.in);
+
+        int a = s1.nextInt();
+        int b = s1.nextInt();
+        int c = s1.nextInt();
+        int d = s1.nextInt();
         
-        System.out.println(result(a,b));
+        
+        
+        
+        ChessFirst chess = new ChessFirst();
+        chess.c = c;
+        chess.d = d;
+        System.out.println(chess.result(a,b));
 
         s1.close();
     }
