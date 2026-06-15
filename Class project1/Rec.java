@@ -2,7 +2,7 @@ public class Rec {
     
 }
 
-class Rectangle {
+class Rectanglee {
     double width =0.0, height =0.0;
 
     public double getArea(){
